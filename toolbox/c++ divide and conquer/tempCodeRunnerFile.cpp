@@ -1,0 +1,9 @@
+
+  int n;
+  std::cin >> n;
+  vector<int> a(n);
+  for (size_t i = 0; i < a.size(); ++i) {
+    std::cin >> a[i];
+  }
+  std::cout << get_majority_element(a, 0, a.size()-1)<< '\n';
+}
